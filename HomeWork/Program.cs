@@ -68,6 +68,25 @@ for (int m = 1; m <= N; m++)
     }
 }
     F = F.Substring(2);
+
     Console.WriteLine(F);
 
 
+Console.WriteLine( "Задача 4");
+
+Console.WriteLine("Введите число ");
+int X = Convert.ToInt32 (Console.ReadLine());
+
+
+if ( X%2 == 0)
+ 
+ {
+
+Console.WriteLine( X + "- чётное число");
+
+ }
+
+ else 
+ {
+     Console.WriteLine( X + "- нечётное число");
+ }
