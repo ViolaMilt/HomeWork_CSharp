@@ -53,3 +53,21 @@ if (e > max)
 
 Console.WriteLine("Максимальное число - " + (max));
 
+Console.WriteLine("Задача 3");
+
+Console.WriteLine("Введите значение N");
+
+int N = Convert.ToInt32 (Console.ReadLine());
+string F = "";
+for (int m = 1; m <= N; m++)
+{
+    if ( m%2 == 0)
+    {
+     F = F + ", " + m;
+
+    }
+}
+    F = F.Substring(2);
+    Console.WriteLine(F);
+
+
