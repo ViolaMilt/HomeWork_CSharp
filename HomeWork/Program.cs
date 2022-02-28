@@ -22,5 +22,34 @@ else
 }
 }
 
+Console.WriteLine("Задача 2");
 
+Console.WriteLine("Введите число 1");
+int c = Convert.ToInt32 (Console.ReadLine());
+
+Console.WriteLine("Введите число 2");
+int d = Convert.ToInt32 (Console.ReadLine());
+
+Console.WriteLine("Введите число 3");
+int e = Convert.ToInt32 (Console.ReadLine());
+
+int max;
+if (c > d)
+{
+    max = c;
+
+}
+ else
+ {
+    max = d;
+
+}
+
+if (e > max)
+{
+    max = e;
+
+}
+
+Console.WriteLine("Максимальное число - " + (max));
 
